@@ -13,3 +13,12 @@ ul {
 a {
     text-decoration: none;
 }
+
+.p_text {
+    font-size: .8rem;
+}
+
+.btn_red {
+    background-color: red;
+    font-size: .6rem;
+}
