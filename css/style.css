@@ -1,3 +1,7 @@
+.w_2 {
+    width: 2%;
+}
+
 .w_5 {
     width: 5%;
 }
@@ -42,6 +46,10 @@ a {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+.bkg_lightblack {
+    background-color: #1f1f1f;
 }
 
 
