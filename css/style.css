@@ -42,6 +42,11 @@ a {
     background-color: #2d64e6;
 }
 
+
+.btn_gray {
+    background-color: lightgray;
+}
+
 .text_play {
     font-size: .9rem;
 }
@@ -57,6 +62,6 @@ a {
 }
 
 .bkg_gray {
-    background-color: ;
+    background-color: #bebcbb;
 }
 
