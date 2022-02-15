@@ -18,8 +18,12 @@
     max-width: 60%;
 }
 
-ul {
-    list-style-type: none;
+.list_icons {
+    width: 60px;
+}
+
+.search_icon img{
+    width: 2rem;
 }
 
 a {
@@ -52,4 +56,7 @@ a {
     background-color: #1f1f1f;
 }
 
+.bkg_gray {
+    background-color: ;
+}
 
