@@ -67,3 +67,15 @@ a {
 .bkg_dark_blue {
     background-color: #161c3b;
 }
+
+.bkg_power_blue {
+    background-color: #00439c;
+}
+
+.list_footer {
+    list-style-type: none;
+}
+
+.footer_info {
+    text-decoration: underline;
+}
