@@ -27,6 +27,14 @@ main {
     color: blue;
 }
 
+.nav_list:hover {
+    color: gray !important;
+}
+
+.sub_link:hover {
+    color: #2d64e6 !important;
+}
+
 .list_icons {
     width: 60px;
 }
@@ -55,6 +63,39 @@ a {
 
 .btn_gray {
     background-color: lightgray;
+}
+
+.btn_borders {
+    border-radius: 1.8rem;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.btn_borders:hover {
+    visibility: visible;
+}
+
+.btn_borders:hover .btn_inside {
+    transform: scale(.9);
+}
+
+.btn_inside {
+    visibility: visible;
+}
+
+.btn_bord {
+    border: 3px solid black;
+    border-radius: 2rem;
+    visibility: hidden;
+}
+
+.text_inside {
+    margin: .2rem;
+    visibility: visible;
+}
+
+.btn_main:hover .btn_bord {
+    visibility: visible;
 }
 
 .text_play {
