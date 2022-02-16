@@ -22,6 +22,11 @@ main {
     max-width: 60%;
 }
 
+.sub_list {
+    list-style-type: disc;
+    color: blue;
+}
+
 .list_icons {
     width: 60px;
 }
