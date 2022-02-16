@@ -22,6 +22,16 @@ main {
     max-width: 60%;
 }
 
+.fa-chevron-down {
+    font-size: 10px;
+    vertical-align: middle;
+ }
+ 
+ .nav-link.show .fa-chevron-down {
+    transform: rotate(180deg);
+    color: #2d64e6;
+ }
+
 .sub_list {
     list-style-type: disc;
     color: blue;
@@ -62,6 +72,7 @@ a {
 .img_up:hover {
     transition: .4s;
     transform: translateY(-15px);
+    box-shadow: 0 10px 5px #bebcbb;
 }
 
 .img_selected {
