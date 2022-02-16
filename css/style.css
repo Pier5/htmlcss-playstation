@@ -91,36 +91,29 @@ a {
     background-color: lightgray;
 }
 
-.btn_borders {
-    border-radius: 1.8rem;
-    border: 3px solid black;
-    visibility: hidden;
+.btn-dark:hover{
+    box-shadow: inset 0 0 0 2px white !important;
+    border: 1px solid black;
 }
 
-.btn_borders:hover {
-    visibility: visible;
+.btn-danger:hover{
+    box-shadow: inset 0 0 0 2px black !important;
+    border: 1px solid red;
+    opacity: .9;
 }
 
-.btn_borders:hover .btn_inside {
-    transform: scale(.9);
+.btn-primary:hover{
+    box-shadow: inset 0 0 0 2px white !important;
+    border: 1px solid #2d64e6;
 }
 
-.btn_inside {
-    visibility: visible;
-}
-
-.btn_bord {
-    border: 3px solid black;
-    border-radius: 2rem;
-    visibility: hidden;
+.btn_gray:hover{
+    box-shadow: inset 0 0 0 2px #c0c0c0 !important;
+    border: 1px solid lightgray;
 }
 
 .text_inside {
     margin: .2rem;
-    visibility: visible;
-}
-
-.btn_main:hover .btn_bord {
     visibility: visible;
 }
 
