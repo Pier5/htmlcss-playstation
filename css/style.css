@@ -23,7 +23,7 @@ main {
 }
 
 .fa-chevron-down {
-    font-size: 10px;
+    font-size: 12px;
     vertical-align: middle;
  }
  
@@ -88,7 +88,6 @@ a {
 .img_accessories:hover {
     opacity: 1 !important;
     border-bottom: 1px solid #2d64e6 !important;
-    height: auto;
 }
 
 .btn_gray {
