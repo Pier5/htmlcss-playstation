@@ -38,7 +38,7 @@ main {
 }
 
 .nav_list:hover {
-    color: #666666 !important;
+    color: black !important;
 }
 
 .sub_link:hover {
@@ -46,7 +46,7 @@ main {
 }
 
 .dropdown-item.bg-white:hover {
-    box-shadow: 3px  3px 0 lightgray, -3px -3px 0 lightgray, 3px -3px 0 lightgray, -3px  3px 0 lightgray;
+    box-shadow: 3px 3px 2px lightgray, -3px -3px 0 lightgray, 3px -3px 0 lightgray, -3px  3px 0 lightgray;
 }
 
 .list_icons {
@@ -80,7 +80,7 @@ a {
 }
 
 .img_selected {
-    border: 4px solid #2d64e6;
+    border: 3px solid #2d64e6;
     border-radius: 1.1rem;
     padding: .1rem;
 }
@@ -127,7 +127,7 @@ a {
 
 .img_jumbo {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     object-fit: cover;
 }
 
