@@ -45,6 +45,10 @@ main {
     color: #2d64e6 !important;
 }
 
+.dropdown-item.bg-white:hover {
+    box-shadow: 3px  3px 0 lightgray, -3px -3px 0 lightgray, 3px -3px 0 lightgray, -3px  3px 0 lightgray;
+}
+
 .list_icons {
     width: 60px;
 }
