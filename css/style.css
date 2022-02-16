@@ -28,7 +28,7 @@ main {
 }
 
 .nav_list:hover {
-    color: gray !important;
+    color: #666666 !important;
 }
 
 .sub_link:hover {
@@ -55,10 +55,25 @@ a {
     border-radius: 1rem;
 }
 
+.img_main {
+    margin-top: 0;
+}
+
+.img_up:hover {
+    transition: .4s;
+    transform: translateY(-15px);
+}
+
 .img_selected {
     border: 4px solid #2d64e6;
     border-radius: 1.1rem;
     padding: .1rem;
+}
+
+.img_accessories:hover {
+    opacity: 1 !important;
+    border-bottom: 1px solid #2d64e6;
+    height: auto;
 }
 
 .btn_gray {
