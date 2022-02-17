@@ -18,19 +18,19 @@ main {
     max-width: 15%;
 }
 
-.w_60 {
-    max-width: 60%;
+.w_55 {
+    max-width: 55%;
 }
 
 .fa-chevron-down {
     font-size: 12px;
     vertical-align: middle;
- }
+}
  
- .nav-link.show .fa-chevron-down {
+.nav-link.show .fa-chevron-down {
     transform: rotate(180deg);
     color: #2d64e6;
- }
+}
 
 .sub_list {
     list-style-type: disc;
@@ -69,8 +69,8 @@ a {
     border-radius: 1rem;
 }
 
-.img_main {
-    margin-top: 0;
+.img_zoom:hover {
+    transform: scale(1.1);
 }
 
 .img_up:hover {
@@ -126,7 +126,7 @@ a {
 
 .img_jumbo {
     width: 100%;
-    height: 90vh;
+    height: 93vh;
     object-fit: cover;
 }
 
